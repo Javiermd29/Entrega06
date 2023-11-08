@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ShootDog : MonoBehaviour
 {
-
     [SerializeField] private GameObject dogPrefab;
 
     void Update()
@@ -12,6 +11,8 @@ public class ShootDog : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+
+            Debug.Log("Hola");
             shootDog();
         }
 
